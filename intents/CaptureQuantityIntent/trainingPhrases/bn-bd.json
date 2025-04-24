@@ -1,0 +1,67 @@
+{
+  "trainingPhrases": [ {
+    "id": "afbde559-da82-464a-bcd9-66cf494edb78",
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhraseনয় দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "dbebda61-b69b-4452-86dc-c39e6887bf82",
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhraseআট দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "af942f3d-82ff-4cc0-9887-1117cca5218c",
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhraseসাত দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "c14d89f1-d298-41b2-8c89-972f29eafad7",
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhrase৬ টা দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "4a39369c-9d78-452a-ae9c-bec0e76fea5c",
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhrase৫ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "7f32bee1-ea17-4282-ad9c-6485fde33383",
+    "parts": [ {
+      "text": "৪ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "35d0d3ce-54e8-4f51-8da6-d41fb0a57cca",
+    "parts": [ {
+      "text": "৩ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "67086c29-8019-4ec5-b51f-8919cd56045b",
+    "parts": [ {
+      "text": "২ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "ffecb7fe-5ca7-4812-a151-c1fd05fe433a",
+    "parts": [ {
+      "text": "১ টি দিন",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  } ]
+}

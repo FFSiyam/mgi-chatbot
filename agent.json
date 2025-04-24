@@ -1,0 +1,68 @@
+{
+  "displayName": "mgi-chatbot",
+  "defaultLanguageCode": "bn",
+  "supportedLanguageCodes": [ "bn-bd" ],
+  "timeZone": "Asia/Almaty",
+  "projectNumber": 237564720273,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      },
+      "models": [ {
+        "key": "bn-bd",
+        "value": "phone_call"
+      } ]
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+    "synthesizeSpeechConfigs": [ {
+      "key": "bn",
+      "value": {
+        "voice": {
+        
+        }
+      }
+    }, {
+      "key": "bn-bd",
+      "value": {
+        "voice": {
+        
+        }
+      }
+    } ]
+  },
+  "duplexSettings": {
+  
+  },
+  "callCompanionSettings": {
+    "company": "MGI"
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "webClientSettings": {
+    "displayName": "MGI",
+    "boxBorderRadius": "0"
+  }
+}

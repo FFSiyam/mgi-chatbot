@@ -1,0 +1,11 @@
+{
+  "name": "4161719b-5522-43e4-951f-5222194626c0",
+  "displayName": "phonehook",
+  "genericWebService": {
+    "uri": "https://us-central1-sanbox-credit.cloudfunctions.net/phoneWebhook",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 10
+  }
+}

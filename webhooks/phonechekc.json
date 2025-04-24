@@ -1,0 +1,11 @@
+{
+  "name": "80a77eaa-ec91-4956-81d9-f569bef2c174",
+  "displayName": "phonechekc",
+  "genericWebService": {
+    "uri": "https://us-central1-sanbox-credit.cloudfunctions.net/phonecheck",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 10
+  }
+}

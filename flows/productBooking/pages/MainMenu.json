@@ -1,0 +1,122 @@
+{
+  "name": "117f27ca-e88f-477f-b100-5310f7920736",
+  "displayName": "MainMenu",
+  "form": {
+    "parameters": [ {
+      "displayName": "product_name",
+      "required": true,
+      "entityType": "@product_name",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "আপনার কোন প্রোডাক্টটি দরকার?" ]
+            },
+            "languageCode": "bn"
+          } ],
+          "advancedSettings": {
+            "playbackInterruptionSettings": {
+            
+            },
+            "dtmfSettings": {
+              "useSystemEntityRule": false
+            }
+          }
+        }
+      }
+    }, {
+      "displayName": "quantity",
+      "required": true,
+      "entityType": "@quantity",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "আপনার কত কার্টুন  পরিমান দরকার?" ]
+            },
+            "languageCode": "bn"
+          } ],
+          "advancedSettings": {
+            "playbackInterruptionSettings": {
+            
+            },
+            "dtmfSettings": {
+              "useSystemEntityRule": false
+            }
+          }
+        }
+      }
+    }, {
+      "displayName": "dealer",
+      "required": true,
+      "entityType": "@dealer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "আপনার ডিলার আইডি বলুন ", "দয়া করে আপনার ডিলার আইডি বলুন " ]
+            },
+            "languageCode": "bn"
+          } ],
+          "advancedSettings": {
+            "playbackInterruptionSettings": {
+            
+            },
+            "dtmfSettings": {
+              "useSystemEntityRule": false
+            }
+          }
+        }
+      }
+    }, {
+      "displayName": "caller_id",
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "advancedSettings": {
+            "playbackInterruptionSettings": {
+            
+            },
+            "dtmfSettings": {
+              "useSystemEntityRule": false
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "আপনার ডিলার আইডি $session.params.dealer  এবং \nআপনি অর্ডার করেছেন $session.params.quantity $session.params.product_name ।\n\nআপনার অর্ডারটি কনফার্ম করা হল । আপনার সাথে আমাদের প্রতিনিধি যোগাযোগ করবে।  ধন্যবাদ, মেঘনা গ্রুপ অফ ইন্ডাস্ট্রিস এর সাথে থাকার জন্য। " ]
+        },
+        "languageCode": "bn"
+      } ],
+      "webhook": "phonehook",
+      "tag": "save-order",
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "End Session",
+    "name": "03f1d2a5-b442-46ff-8701-b5a86ff1545c"
+  } ],
+  "description": "Product details capture page"
+}

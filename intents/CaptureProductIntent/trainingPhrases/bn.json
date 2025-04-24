@@ -1,0 +1,122 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "নুডলস",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "পানি",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "মালামাল",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "মাল",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "অর্ডার",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমি অর্ডার করতে চাই",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমার কিছু প্রডাক্ট লাগবে",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমার প্রোডাক্ট দরকার",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমার প্রোডাক্ট চাই",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "প্রোডাক্ট",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমার প্রোডাক্ট লাগবে",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "চিনি",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "তেল",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "বিস্কুট",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমার বিস্কুট লাগবে",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমার তেল লাগবে",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "আমার চিনি লাগবে",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  } ]
+}

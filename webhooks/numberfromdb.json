@@ -1,0 +1,11 @@
+{
+  "name": "2c217d05-3e6f-45c2-b1f1-0e636a1d5d54",
+  "displayName": "numberfromdb",
+  "genericWebService": {
+    "uri": "https://us-central1-sanbox-credit.cloudfunctions.net/numberfromdb",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 10
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "trainingPhrases": [ {
+    "id": "db21ff4a-4303-4442-bba6-bceb1abce821",
+    "parts": [ {
+      "text": "hello",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "5b48600d-35f7-4240-928e-70ac6c12c479",
+    "parts": [ {
+      "text": "hi",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "7a7defdd-7a30-470c-8034-f81b75a84a40",
+    "parts": [ {
+      "text": "এখানে স্বাগতম",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "eedb2949-b4af-45d9-8ec8-20d82b8f1a23",
+    "parts": [ {
+      "text": "স্বাগতম",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "3e3150db-1a8f-484b-b472-4d718789e1e9",
+    "parts": [ {
+      "text": "তোমাকে অনেক অনেক স্বাগতম",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "df68ce05-b36b-4bbe-b5b0-db624f8a89e3",
+    "parts": [ {
+      "text": "এটা আমার আনন্দ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "760a0aa9-b204-49cf-b6dc-03fdb6275b07",
+    "parts": [ {
+      "text": "নিশ্চিত স্বাগতম",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "3de05787-7ea0-4950-a357-ed19b93a7421",
+    "parts": [ {
+      "text": "আমার আনন্দ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "0e0deeae-bb70-400b-aad3-a385352fec56",
+    "parts": [ {
+      "text": "তোমাকে স্বাগতম",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  } ]
+}

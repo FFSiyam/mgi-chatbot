@@ -1,0 +1,93 @@
+{
+  "name": "6c32ac73-dc37-4cd0-a9af-e7be9c6b6ccd",
+  "displayName": "productBooking",
+  "transitionRoutes": [ {
+    "intent": "CaptureProductIntent",
+    "triggerFulfillment": {
+      "webhook": "numberfromdb",
+      "tag": "check-caller",
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "c032e0ba-b831-467a-b46c-72de2634f189"
+  }, {
+    "condition": "$session.params.phone_verified != \"TRUE\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "দয়া করে আবার চেষ্টা করুন" ]
+        },
+        "languageCode": "bn"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "End Session",
+    "name": "7ac1caff-c8df-4eb9-9c86-78688bbc09e9"
+  }, {
+    "condition": "$session.params.phone_verified = \"TRUE\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "অবশ্যই! আমি আপনাকে সাহায্য করতে পারি !" ]
+        },
+        "languageCode": "bn"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "MainMenu",
+    "name": "7e422dcb-fb12-4a46-bcd3-b250aa8d5787"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "আমি এটা শুনতে পাইনি৷ আপনি কি আবার এটা বলবেন?", "আপনি যা বললেন সেটা আমি মিস করলাম৷ সেটা আর একবার বলবেন?", "আপনি কি এটা আর একবার বলতে পারবেন?", "আপনি কি এটা আবার বলতে পারবেন?", "আপনি কি এটা আবার বলতে পারবেন?", "আপনি কি বললেন আমি বুঝতে পারি নি৷", "কি বললেন বুঝতে পারলাম না?", "আরও এক বার বলবেন?", "কি বললেন বুঝলাম না?", "আরও এক বার বলবেন?", "আমি এটা শুনতে পাইনি৷", "আমি এটা মিস করে গেলাম৷" ]
+        },
+        "languageCode": "bn"
+      } ]
+    },
+    "name": "07b45552-ca37-4589-b31c-4b195a10a5b2"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "আমি এটা শুনতে পাইনি৷ আপনি কি আবার এটা বলবেন?", "আপনি যা বললেন সেটা আমি মিস করলাম৷ সেটা আর একবার বলবেন?", "আপনি কি এটা আর একবার বলতে পারবেন?", "আপনি কি এটা আবার বলতে পারবেন?", "আপনি কি এটা আবার বলতে পারবেন?", "আপনি কি বললেন আমি বুঝতে পারি নি৷", "কি বললেন বুঝতে পারলাম না?", "আরও এক বার বলবেন?", "কি বললেন বুঝলাম না?", "আরও এক বার বলবেন?", "আমি এটা শুনতে পাইনি৷", "আমি এটা মিস করে গেলাম৷" ]
+        },
+        "languageCode": "bn"
+      } ]
+    },
+    "name": "0276a24e-bd52-456d-aac0-9e09d9be1b50"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "bb0905c5-ddae-4606-91fc-6c79a7462b4b",
+    "languageCode": "bn"
+  } ]
+}

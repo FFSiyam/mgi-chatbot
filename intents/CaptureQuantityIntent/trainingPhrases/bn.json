@@ -1,0 +1,58 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhraseনয় দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhraseআট দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhraseসাত দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhrase৬ টা দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "llmGeneratedTranslatedTrainingPhrase৫ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "৪ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "৩ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "২ টি দিন"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  }, {
+    "parts": [ {
+      "text": "১ টি দিন",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn"
+  } ]
+}

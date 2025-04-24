@@ -1,0 +1,45 @@
+{
+  "trainingPhrases": [ {
+    "id": "21639539-8464-48cb-9a64-6c87ed7aafb7",
+    "parts": [ {
+      "text": "চিনি"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "7436b71c-ab51-4a45-b3d1-0ed6f94c6809",
+    "parts": [ {
+      "text": "তেল"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "be053e52-f784-43cf-afc3-df5a9fc50bbe",
+    "parts": [ {
+      "text": "বিস্কুট"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "06650fc4-f715-4540-88ae-e74d4d260d82",
+    "parts": [ {
+      "text": "আমার বিস্কুট লাগবে"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "00afc77a-8ad6-43a5-a369-437ed91276af",
+    "parts": [ {
+      "text": "আমার তেল লাগবে"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  }, {
+    "id": "c56b967e-b3b7-4b8d-940c-03eb912d91d4",
+    "parts": [ {
+      "text": "আমার চিনি লাগবে"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "bn-bd"
+  } ]
+}

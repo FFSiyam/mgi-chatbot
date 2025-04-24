@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "mgi-১০৩",
+    "synonyms": [ "mgi-১০৩" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "mgi-১০২",
+    "synonyms": [ "mgi-১০২" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "mgi-১০১",
+    "synonyms": [ "mgi-১০১" ],
+    "languageCode": "bn-bd"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "ডাল",
+    "synonyms": [ "lentil", "ডাল", "মসুর ডাল  " ],
+    "languageCode": "bn"
+  }, {
+    "value": "বিস্কুট",
+    "synonyms": [ "biscuit", "টোস্ট ", "বিস্কিট  ", "বিস্কুট", "ড্রাই কেক " ],
+    "languageCode": "bn"
+  }, {
+    "value": "চিনি",
+    "synonyms": [ "sugar", "চিনি", "সাদা চিনি " ],
+    "languageCode": "bn"
+  }, {
+    "value": "তেল",
+    "synonyms": [ "oil", "তেল", "নারিকেল ", "সয়াবিন", "সরিষা " ],
+    "languageCode": "bn"
+  }, {
+    "value": "চাল",
+    "synonyms": [ "rice", "চাল", "মিনিকেট " ],
+    "languageCode": "bn"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "mgi-১০৩",
+    "synonyms": [ "mgi-১০৩", "একশ তিন ", "তিন  " ],
+    "languageCode": "bn"
+  }, {
+    "value": "mgi-১০২",
+    "synonyms": [ "mgi-১০২", "একশ দুই ", "এম জি আই একশো দুই  ", "দুই  " ],
+    "languageCode": "bn"
+  }, {
+    "value": "mgi-১০১",
+    "synonyms": [ "mgi-১০১", "এক  ", "এক্শ এক " ],
+    "languageCode": "bn"
+  } ]
+}

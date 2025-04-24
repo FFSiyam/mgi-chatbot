@@ -1,0 +1,25 @@
+{
+  "name": "716d68eb-718c-49e5-8d76-16871988fa4a",
+  "displayName": "MainPage",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "CaptureProductIntent",
+    "triggerFulfillment": {
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "productBooking",
+    "name": "d7834250-8634-4b0c-9b00-f2cb0923b0e6"
+  } ]
+}

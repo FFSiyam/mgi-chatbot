@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "ডাল",
+    "synonyms": [ "ডাল" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "বিস্কুট",
+    "synonyms": [ "বিস্কুট" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "চিনি",
+    "synonyms": [ "চিনি" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "তেল",
+    "synonyms": [ "তেল" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "চাল",
+    "synonyms": [ "চাল" ],
+    "languageCode": "bn-bd"
+  } ]
+}

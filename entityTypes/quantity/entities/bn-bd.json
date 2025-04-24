@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "৩ ব্যাগ",
+    "synonyms": [ "৩ ব্যাগ" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "৫ ব্যাগ",
+    "synonyms": [ "৫ ব্যাগ" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "১ ব্যাগ",
+    "synonyms": [ "১ ব্যাগ" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "৫ কার্টুন",
+    "synonyms": [ "৫ কার্টুন" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "১ কার্টুন",
+    "synonyms": [ "১ কার্টুন" ],
+    "languageCode": "bn-bd"
+  }, {
+    "value": "৩ কার্টুন",
+    "synonyms": [ "৩ কার্টুন" ],
+    "languageCode": "bn-bd"
+  } ]
+}
